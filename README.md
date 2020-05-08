@@ -1,5 +1,5 @@
 # microbitmusiccontroller
-Music controller project for INFO697 at Pratt Institute, based on the BBC Microbit written in Python
+Music controller project for INFO697 at Pratt Institute, based on the BBC Microbit written in Python.  With this project you will be able to play and manipulate sounds with the Micro:bit controller and a variety of sensors.
 
 ## What do you need to get started
 Below is a list of the following items you will need to create the music controller
@@ -12,8 +12,48 @@ Below is a list of the following items you will need to create the music control
 * [Ks0021 keyestudio Collision Sensor](https://wiki.keyestudio.com/Ks0021_keyestudio_Collision_Sensor) - 1x
 * [Ks0061 keyestudio 1602 I2C Module](https://wiki.keyestudio.com/Ks0061_keyestudio_1602_I2C_Module) - 1x
 * [KS0325 Keyestudio Dupont Jumper Wire 20CM Package](https://wiki.keyestudio.com/KS0325_Keyestudio_Dupont_Jumper_Wire_20CM_Package_(M-M,_M-F,_F-F)) - 1x
+* [Premium battery case 6 Cell AA] (https://wiki.keyestudio.com/File:361-41.png)
+* Micro USB cable - 1x
+* 6 AA Batteries
 * 5x4x8 cardboard box for enclosure
 * Scissors
 * Scotch Heavy Duty Shipping Packaging Tape
 
-Configuration of Components
+## Configuration of Components
+1. Plug *KS0468 Keyestudio Micro:bit Main board* into *Ks0360 Keyestudio Sensor Shield V2*
+2. Using *4x Dupont Jumper Wire*, plug *Ks0008 keyestudio Joystick Module* into the following pins:
+* '-' to pin1 Ground
+* '+' to pin1 v1
+* y to pin1
+* x to pin2
+3. Using *3x Dupont Jumper Wire*, plug the *Ks0018 keyestudio Digital Buzzer Module* into Pin0
+4. Using *3x Dupont Jumper Wire*, plug the *Ks0019 keyestudio Passive Buzzer module* into Pin14
+5. Using *3x Dupont Jumper Wire*, plug a *Ks0029 keyestudio Digital Push Button* into Pin8
+6. Using *3x Dupont Jumper Wire*, plug a *Ks0029 keyestudio Digital Push Button* into Pin12
+7. Using *3x Dupont Jumper Wire*, plug a *Ks0029 keyestudio Digital Push Button* into Pin16
+8. Using *3x Dupont Jumper Wire*, plug the *Ks0021 keyestudio Collision Sensor* into Pin5
+9. Using *3x Dupont Jumper Wire*, plug the *Ks0061 keyestudio 1602 I2C Module* into the IIC pins:
+* GND to G
+* VCC to V2
+* SDA to Pin20
+* SCL to Pin19
+10. *Premium battery case 6 Cell AA with 6 AA batteries* into 9v power input on *Ks0360 Keyestudio Sensor Shield V2*
+
+
+## Uploading of Microbit with python code
+Once you have the microbit configured correctly, use plug the *Micro USB cable* into the *KS0468 Keyestudio Micro:bit Main board* and then into your computer.  Using a python editor, like Mu-Editor or [Microbit Python Editor](https://python.microbit.org/v/2.0), upload [python code](https://github.com/armbur/microbitmusiccontroller/blob/master/music_controller.py) to the microbit.
+
+ ## General Instructions
+ The music controller has two functions of play:
+ 1. Free Play
+ 2. Pitch Modulator
+ 
+By default free play is enabled when you power on the Microbit and you can press any of the *Digital Push Buttons* to play a musical note.  In the python code the notes are hard coded to each button as follows:
+* Pin8 = 'G3:4', 'D5:4'
+* Pin12 = 'G3:4', 'D5:4'
+* Pin16 = 'G4:4','A4:4'
+
+To engage Pitch Modulator mode, you need to first press the *Collision Sensor*.  In this mode, a note (frequency ~1500) will be repeatedly played and you can use the *joystick* by moving it up or down to change the frequency and use the *digital push buttons* in pin16 (+) and pin8 (-) to change the pitch speed.  You can turn off Pitch Modulator mode and return to Free Play mode by pressing the *Digital Push Button* in pin12.
+
+## Acknowledgements
+* [LCD Code](https://github.com/Pratt-Institute/MicroPython4MicroBit/blob/master/lcd_complete.py) by Pratt Institute SI
