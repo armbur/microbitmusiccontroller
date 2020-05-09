@@ -13,11 +13,6 @@ Below is a list of the following items you will need to create the music control
 * [Ks0061 keyestudio 1602 I2C Module](https://wiki.keyestudio.com/Ks0061_keyestudio_1602_I2C_Module) - 1x
 * [KS0325 Keyestudio Dupont Jumper Wire 20CM Package](https://wiki.keyestudio.com/KS0325_Keyestudio_Dupont_Jumper_Wire_20CM_Package_(M-M,_M-F,_F-F)) - 1x
 * [Premium battery case 6 Cell AA] (https://wiki.keyestudio.com/File:361-41.png)
-* Micro USB cable - 1x
-* 6 AA Batteries
-* 5x4x8 cardboard box for enclosure
-* Scissors
-* Scotch Heavy Duty Shipping Packaging Tape
 
 ## Configuration of Components
 
