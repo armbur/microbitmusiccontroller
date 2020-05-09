@@ -21,7 +21,7 @@ Below is a list of the following items you will need to create the music control
 
 ## Configuration of Components
 
-![Image description](https://drive.google.com/open?id=1SiitgP7pZT3Mrhbbjolfd41L_B9Gw9JO)
+![](images/Music_Controller_Config_Complete.png)
 
 
 ## Uploading of Microbit with python code
