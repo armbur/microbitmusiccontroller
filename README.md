@@ -23,7 +23,7 @@ Below is a list of the following items you will need to create the music control
 
 Below is a configuration diagram off all the Microbit parts needed for this project. 
 
-**CLICK IMAGE BELOW TO DOWNLOAD FULL IMAGE**
+**PLEASE CLICK THE IMAGE BELOW TO ZOOM IN AND DOWNLOAD THE FULL IMAGE**
 
 ![](images/Music_Controller_Config_Complete.png)
 
