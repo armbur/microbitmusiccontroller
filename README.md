@@ -29,7 +29,7 @@ Below is a configuration diagram off all the Microbit parts needed for this proj
 
 
 ## Uploading of Microbit with python code
-Once you have the microbit configured correctly, use plug the *Micro USB cable* into the *KS0468 Keyestudio Micro:bit Main board* and then into your computer.  Using a python editor, like Mu-Editor or [Microbit Python Editor](https://python.microbit.org/v/2.0), upload [python code](https://github.com/armbur/microbitmusiccontroller/blob/master/music_controller.py) to the microbit.
+Once you have the microbit configured correctly, use plug the *Micro USB cable* into the *KS0468 Keyestudio Micro:bit Main board* and then into your computer.  Using a compatible Micro:bit python editor, like Mu-Editor or [Microbit Python Editor](https://python.microbit.org/v/2.0), upload [python code](https://github.com/armbur/microbitmusiccontroller/blob/master/music_controller.py) to the microbit.
 
  ## General Instructions
  The music controller has two functions of play:
