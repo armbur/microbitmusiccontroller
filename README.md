@@ -20,24 +20,8 @@ Below is a list of the following items you will need to create the music control
 * Scotch Heavy Duty Shipping Packaging Tape
 
 ## Configuration of Components
-1. Plug *KS0468 Keyestudio Micro:bit Main board* into *Ks0360 Keyestudio Sensor Shield V2*
-2. Using *4x Dupont Jumper Wire*, plug *Ks0008 keyestudio Joystick Module* into the following pins:
-* '-' to pin1 Ground
-* '+' to pin1 v1
-* y to pin1
-* x to pin2
-3. Using *3x Dupont Jumper Wire*, plug the *Ks0018 keyestudio Digital Buzzer Module* into Pin0
-4. Using *3x Dupont Jumper Wire*, plug the *Ks0019 keyestudio Passive Buzzer module* into Pin14
-5. Using *3x Dupont Jumper Wire*, plug a *Ks0029 keyestudio Digital Push Button* into Pin8
-6. Using *3x Dupont Jumper Wire*, plug a *Ks0029 keyestudio Digital Push Button* into Pin12
-7. Using *3x Dupont Jumper Wire*, plug a *Ks0029 keyestudio Digital Push Button* into Pin16
-8. Using *3x Dupont Jumper Wire*, plug the *Ks0021 keyestudio Collision Sensor* into Pin5
-9. Using *3x Dupont Jumper Wire*, plug the *Ks0061 keyestudio 1602 I2C Module* into the IIC pins:
-* GND to G
-* VCC to V2
-* SDA to Pin20
-* SCL to Pin19
-10. *Premium battery case 6 Cell AA with 6 AA batteries* into 9v power input on *Ks0360 Keyestudio Sensor Shield V2*
+
+![Image description](https://drive.google.com/open?id=1SiitgP7pZT3Mrhbbjolfd41L_B9Gw9JO)
 
 
 ## Uploading of Microbit with python code
