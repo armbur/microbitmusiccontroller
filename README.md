@@ -11,7 +11,7 @@ Below is a list of the following items you will need to create the music control
 * [Ks0029 keyestudio Digital Push Button](https://wiki.keyestudio.com/Ks0029_keyestudio_Digital_Push_Button) - 3x
 * [Ks0021 keyestudio Collision Sensor](https://wiki.keyestudio.com/Ks0021_keyestudio_Collision_Sensor) - 1x
 * [Ks0061 keyestudio 1602 I2C Module](https://wiki.keyestudio.com/Ks0061_keyestudio_1602_I2C_Module) - 1x
-* [KS0325 Keyestudio Dupont Jumper Wire 20CM Package](KS0325 Keyestudio Dupont Jumper Wire 20CM Package)
+* [KS0325 Keyestudio Dupont Jumper Wire 20CM Package](https://wiki.keyestudio.com/index.php/KS0325_Keyestudio_Dupont_Jumper_Wire_20CM_Package_(M-M,_M-F,_F-F))
 
 ## Configuration of Components
 
