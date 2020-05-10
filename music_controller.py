@@ -120,13 +120,19 @@ tune_button_c = ['G4:4','A4:4']
 tune_button_d = ['A4:4']
 
 pitch_emulator_on = False
-
+intro = 0
 
 while True:
 
 # Welcome message output to LCD Screen    
-    lcd.puts('Welcome to', 0 ,0)
-    lcd.puts('Music Controller', 0 ,5)
+    if intro == 0:
+        lcd.puts('Welcome to', 0 ,0)
+        lcd.puts('Music Controller', 0 ,5)
+        sleep(3000)
+        intro = 1
+    else:
+        lcd.puts('Free Play = ON', 0 ,0)
+        lcd.puts('                ', 0 ,5)
 
 # --- PITCH EMULATOR CODE START ---
 # code below turns on pitch emulator and prints status to LCD Screen
@@ -138,6 +144,9 @@ while True:
         pitch_rate = 100
         lcd.puts('Pitch Mode: ON', 0 ,0)
         lcd.puts('                ', 0 ,5)
+        sleep(1000)
+        lcd.puts('Square = +pitch', 0 ,0)
+        lcd.puts('Circle = -pitch', 0 ,5)
     while pitch_emulator_on:
         joyy = pin1.read_analog()
         joyx = pin2.read_analog()
