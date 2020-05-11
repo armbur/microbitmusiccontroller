@@ -145,8 +145,8 @@ while True:
         lcd.puts('Pitch Mode: ON', 0 ,0)
         lcd.puts('                ', 0 ,5)
         sleep(1000)
-        lcd.puts('Square = +pitch', 0 ,0)
-        lcd.puts('Circle = -pitch', 0 ,5)
+        lcd.puts('Square: - speed', 0 ,0)
+        lcd.puts('Circle: + speed', 0 ,5)
     while pitch_emulator_on:
         joyy = pin1.read_analog()
         joyx = pin2.read_analog()
